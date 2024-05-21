@@ -1,0 +1,57 @@
+<!-- res/layout/chat_image_from_row.xml -->
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp">
+
+    <!-- User's profile image -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_chat_from_row"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/no_image2"
+        app:civ_border_color="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Image sent by the user -->
+
+    <ProgressBar
+        android:id="@+id/progressImageFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/imageview_image_from"
+        app:layout_constraintStart_toStartOf="@+id/imageview_image_from"
+        app:layout_constraintTop_toTopOf="@+id/imageview_image_from"
+        app:layout_constraintBottom_toBottomOf="@+id/imageview_image_from"
+         />
+
+    <!-- Timestamp -->
+    <ImageView
+        android:id="@+id/imageview_image_from"
+        android:layout_width="236dp"
+        android:layout_height="149dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/image_msg_time_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="76dp"
+        android:text="12:34 PM"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_image_from" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1016442414970",
+    "project_id": "intdesign-abd27",
+    "storage_bucket": "intdesign-abd27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016442414970:android:f7e4bf4a24e12a4d16d8c3",
+        "android_client_info": {
+          "package_name": "com.app.interiordesign"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEOI3pyWNbfqoTVVxkSWK6ROI56yFoSHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

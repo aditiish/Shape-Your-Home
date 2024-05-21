@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Interior Design</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product_image">Product Image</string>
+    <string name="product_price">Price: Rs %1$.2f</string>
+    <string name="buy_product">Buy Product</string>
+    <string name="checkout">Checkout</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="rupee">₹</string>
+    <string name="try_in_your_home">Try In Your Home</string>
+    <string name="product_details">Product Details</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="in_stock">In stock.</string>
+    <string name="_00">00</string>
+    <string name="menu_open">Final Image</string>
+    <string name="menu_select">Select target</string>
+    <string name="menu_cut">Process Image</string>
+    <string name="menu_photo">Take Photo</string>
+    <string name="menu_gallery">Open Gallery</string>
+    <string name="menu_color">Choose Color</string>
+    <string name="menu_texture">Choose Texture</string>
+
+    <string name="to_measurement_button">To Measurement</string>
+    <string-array name="arcore_measurement_buttons">
+        <item>@string/to_measurement_button</item>
+    </string-array>
+    <string name="distance_from_camera">Distance from camera</string>
+    <string name="distance_of_2_points">Distance of 2 points</string>
+    <string name="distance_of_multiple_points">Distance of multiple points</string>
+    <string name="distance_from_ground">Distance from ground</string>
+    <string name="clear">Clear</string>
+    <string name="initCM">0.0</string>
+    <string-array name="distance_mode">
+        <item>@string/distance_from_camera</item>
+        <item>@string/distance_of_2_points</item>
+        <item>@string/distance_of_multiple_points</item>
+        <item>@string/distance_from_ground</item>
+    </string-array>
+
+    <string name="message">Message</string>
+    <string name="contacts">Contacts</string>
+
+<!--    navigation drawer-->
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+</resources>
